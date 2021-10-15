@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// With closure, the nested function is able to reach out of its function scope to it's parental function scope to pull information needed that may be unavailable within the nested function.
 
 
 
@@ -217,6 +217,12 @@ class CuboidMakerTwo{
     return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
   }
 }
+
+const cuboidTwo = new CuboidMakerTwo({
+  lenght: 4,
+  weidth: 5,
+  height: 5
+})
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
