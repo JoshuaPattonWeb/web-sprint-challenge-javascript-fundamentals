@@ -20,7 +20,6 @@ myFunction();
 // With closure, the nested function is able to reach out of its function scope to it's parental function scope to pull information needed that may be unavailable within the nested function.
 
 
-
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
     1. Receive a number 
